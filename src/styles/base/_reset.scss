@@ -1,0 +1,42 @@
+// DEFAULT STYLE
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  
+    font-family: Simplon, sans-serif;
+	font-size: toRem($text-size);
+    font-weight: 400;
+}
+html {
+  font-size: 100%;
+  background: $bright-color;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+ul,p,div,a {
+  list-style: none;
+}
+svg {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: $light-color;
+}
+
+
+textarea:focus,
+input:focus,
+select:focus,
+button:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}

@@ -1,0 +1,60 @@
+{
+	"menu": {
+		"home": "Início",
+		"services": "Serviços",
+		"portfolio": "Portifólio",
+		"contact": "Contato"
+	},
+	"language": {
+		"english": "Inglês",
+		"portuguese": "Português"
+	},
+	"profile": {
+		"name": "Matheus Grilo",
+		"description": "Sou um profissional apaixonado por tecnologia e design, dedicado a criar soluções web e mobile que geram impacto real. Ao longo da minha carreira, sempre acreditei que a melhor forma de sucesso é através da constante aprendizagem, inovação e um foco incansável na experiência do usuário. Se você está interessado em trabalhar comigo, adoraria ouvir de você!"
+	},
+	"contact": {
+		"title": "Fale comigo",
+		"methods": {
+			"email": "matheuscgrilo@mail.com",
+			"phone": "+55 21 98157-3775",
+			"linkedin": "linkedin.com/in/matheusgrilo",
+			"whatsapp": "wa.me/5521981573775"
+		}
+	},
+	"skills": {
+		"title": "No que eu sou ótimo",
+		"description": "Minha especialidade é transformar conceitos e ideias em realidade digital. Com um olhar meticuloso para o design, desenvolvimento web e criação de aplicativos para Android, eu dedico meu tempo para garantir que cada elemento de seu projeto seja tratado com excelência e atenção aos detalhes.",
+		"button": "Habilidades",
+		"items": {
+			"web_designing": "Design de Sites",
+			"web_development": "Desenvolvimento Web",
+			"web_apps": "Aplicativos Web",
+			"web_editing": "Edição de Sites"
+		}
+	},
+	"portfolio": {
+		"title": "Minhas melhores obras",
+		"button": "Galeria",
+		"description": "Trabalhar na intersecção da estética e funcionalidade para criar soluções poderosas é o que mais me motiva. Explore minha galeria para ver exemplos de projetos complexos que desenvolvi com uma estratégia focada no usuário, design atrativo e um desenvolvimento robusto."
+	},
+	"gallery": [
+		"sites web",
+		"sites web",
+		"sites web",
+		"sites web",
+		"sites web",
+		"sites web"
+	],
+	"contact_form": {
+		"get_in_touch": "Como entrar em contato",
+		"description": "Estou sempre aberto para novos projetos, ideias ou simplesmente para um bom bate-papo sobre tudo que envolve tecnologia e design. Seja por e-mail, telefone, Skype ou Whatsapp, estou disponível para discutir suas necessidades e ver como posso ajudá-lo a atingir seus objetivos. Se preferir, você pode preencher o formulário abaixo com seus detalhes e eu retornarei o contato o mais breve possível.",
+		"fields": {
+			"name": "Nome",
+			"email": "Email",
+			"message": "Mensagem",
+			"button": "Enviar"
+		}
+	},
+	"footer": "© Grilo Tech Insights 2023"
+}

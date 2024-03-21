@@ -1,0 +1,75 @@
+@import '../../index.scss';
+
+#hero {
+  width: 100%;
+  min-height: 100vh;
+  background: $primary-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+	position: relative;
+
+	&:before {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 50vw;
+		height: 25vw;
+		background: $secondary-color;
+		border-top-right-radius: 25vw;
+		border-top-left-radius: 25vw;
+	}
+
+  @media screen and (max-width: 1024px) {
+    padding: 60px 50px;
+  }
+
+  @media screen and (max-width: 700px) {
+    padding: 60px 20px;
+  }
+
+  .hero__container {
+		width: 100%;
+		max-width: 1440px;
+		margin: 0 auto;
+		// position: relative;
+
+    .hero__content {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 650px;
+      z-index: 10;
+
+      h2 {
+        position: relative;
+        // font-size: 4.4em;
+		font-weight: 700;
+      }
+
+      p {
+        position: relative;
+        color: $light-color;
+        // font-size: 1.2em;
+        line-height: 1.6em;
+      }
+    }
+
+    .avatar {
+      position: absolute;
+      bottom: 0;
+      right: 100px;
+      max-height: 60vh;
+
+      @media screen and (max-width: 700px) {
+        max-height: 60vh;
+        right: 0;
+      }
+
+    }
+  }
+
+}

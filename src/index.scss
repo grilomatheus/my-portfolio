@@ -1,0 +1,14 @@
+// src\index.scss
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'styles/base/_fonts';
+@import 'styles/utils/_variables';
+@import 'styles/utils/_mixins';
+@import 'styles/utils/_functions';
+@import 'styles/base/_reset';
+@import 'styles/base/_global';
+
+

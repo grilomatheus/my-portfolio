@@ -1,0 +1,26 @@
+// FONT SIZE
+$primary-title-size: 72;
+$title-size: 64;
+$text-size: 16;
+
+
+// COLORS
+$primary-color: #4831d4;
+$secondary-color: #ccf381;
+// VARIANT
+$primary-bright: #cbc9e2;
+$primary-darker: #3d155f;
+// CONTENT
+$light-color: #ffffff;
+$bright-color: #f9f9f9;
+
+
+// MEDIA QUERIES
+$breakpoints: (
+	"mobile": 360px,
+    "tablet": 640px,
+    "desktop": 1024px,
+    "desktop-large": 1280px,
+);
+
+$grid: 1440

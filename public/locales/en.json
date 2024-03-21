@@ -1,0 +1,61 @@
+{
+	"menu": {
+		"home": "Home",
+		"services": "Services",
+		"portfolio": "Portfolio",
+		"contact": "Contact"
+	},
+	"language": {
+		"english": "English",
+		"portuguese": "Portuguese",
+		"spanish": "Spanish"
+	},
+	"profile": {
+		"name": "Matheus Grilo",
+		"description": "I am a professional passionate about technology and design, dedicated to creating web and mobile solutions that make a real impact. Throughout my career, I have always believed that the best way to success is through constant learning, innovation, and an unwavering focus on user experience. If you are interested in working with me, I would love to hear from you!"
+	},
+	"contact": {
+		"title": "Talk to me",
+		"methods": {
+			"email": "matheuscgrilo@mail.com",
+			"phone": "+55 21 98157-3775",
+			"linkedin": "linkedin.com/in/matheusgrilo",
+			"whatsapp": "wa.me/5521981573775"
+		}
+	},
+	"skills": {
+		"title": "What I'm great at",
+		"description": "My specialty is turning concepts and ideas into digital reality. With a meticulous eye for design, web development, and Android app creation, I dedicate my time to ensuring that every element of your project is handled with excellence and attention to detail.",
+		"button": "Skills",
+		"items": {
+			"web_designing": "Website Design",
+			"web_development": "Web Development",
+			"web_apps": "Web Apps",
+			"web_editing": "Website Editing"
+		}
+	},
+	"portfolio": {
+		"title": "My best works",
+		"button": "Gallery",
+		"description": "Working at the intersection of aesthetics and functionality to create powerful solutions is what motivates me the most. Explore my gallery to see examples of complex projects I've developed with a user-focused strategy, attractive design, and robust development."
+	},
+	"gallery": [
+		"websites",
+		"websites",
+		"websites",
+		"websites",
+		"websites",
+		"websites"
+	],
+	"contact_form": {
+		"get_in_touch": "How to get in touch",
+		"description": "I'm always open to new projects, ideas, or just a good chat about everything involving technology and design. Whether by email, phone, Skype, or Whatsapp, I'm available to discuss your needs and see how I can help you achieve your goals. If you prefer, you can fill out the form below with your details, and I will get back to you as soon as possible.",
+		"fields": {
+			"name": "Name",
+			"email": "Email",
+			"message": "Message",
+			"button": "Send"
+		}
+	},
+	"footer": "© Grilo Tech Insights 2023"
+}

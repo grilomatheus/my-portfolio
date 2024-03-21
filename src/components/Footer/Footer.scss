@@ -1,0 +1,21 @@
+@import '../../index.scss';
+
+footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $primary-color;
+  text-align: center;
+}
+
+.copyrights {
+  position: relative;
+  color: #aaa;
+  font-size: 1.2em;
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+  }
+}
