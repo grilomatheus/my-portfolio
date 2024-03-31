@@ -1,75 +1,74 @@
-
 // COMMON CLASSES
-.title-light,
-.title-dark {
+.title-primary,
+.title-secondary {
     font-family: $font-primary;
-    font-size: toRem($title-size);
+    font-size: toRem($title-mobile);
     font-weight: 700;
 
-    // @include minWidth(tablet) {
-    //     font-size: 12vw;
-    // }
-}
-
-.title-light {
-    color: $secondary-color;
-}
-
-.title-dark {
-    color: $primary-color;
-}
-
-.text-light {
-    color: $light-color;
-}
-
-.text-dark {
-    color: $primary-darker;
-}
-
-.btn-light {
-    color: $light-color;
-    border-color: $light-color;
-
-    &:hover {
-        box-shadow: inset toRem(200) 0 0 0 $bright-color, inset toRem(-200) 0 0 0 $bright-color;
-        border-color: $bright-color;
-        color: $primary-color;
+    @include minWidth(tablet) {
+        font-size: toRem($title-desktop);
     }
 }
 
-.btn-dark {
-    color: $primary-color;
-    border-color: $primary-color;
+.title-primary {
+    color: var(--title-secondary);
+}
+
+.title-secondary {
+    color: var(--title-primary);
+}
+
+.text-primary {
+    color: $grey-100;
+}
+
+.text-secondary {
+    color: var(--text-secondary);
+}
+
+.btn-primary {
+    color: var(--input-primary);
+    border-color: var(--input-primary);
 
     &:hover {
-        box-shadow: inset toRem(200) 0 0 0 $primary-color, inset toRem(-200) 0 0 0 $primary-color;
-        border-color: $primary-color;
-        color: $light-color;
+        box-shadow: inset toRem(200) 0 0 0 var(--input-primary), inset toRem(-200) 0 0 0 var(--input-primary);
+        border-color: var(--input-primary);
+        color: var(--input-text-primary);
     }
 }
 
-.btn-light,
-.btn-dark {
+.btn-secondary {
+    color: var(--input-secondary);
+    border-color: var(--input-secondary);
+
+    &:hover {
+        box-shadow: inset toRem(200) 0 0 0 var(--input-secondary), inset toRem(-200) 0 0 0 var(--input-secondary);
+        border-color: var(--input-secondary);
+        color: var(--input-text-secondary);
+    }
+}
+
+.btn-primary,
+.btn-secondary {
     position: relative;
     display: inline-block;
     font-size: toRem($text-size);
-    width: toRem(200);
+    width: toRem(216);
     background: transparent;
     text-align: center;
     padding: toRem($text-size);
     font-weight: 500;
     letter-spacing: 0.05em;
     text-decoration: none;
-    margin-top: 10px;
-    border: 2px solid;
+    margin-top: toRem(10);
+    border: toRem(2) solid;
     border-radius: 0;
     transition: 0.5s;
     cursor: pointer;
 
     &:disabled {
-        color: $primary-bright;
-        border-color: $primary-bright;
+        color: $primary-light;
+        border-color: $primary-light;
         box-shadow: none;
         cursor: default;
     }
@@ -79,6 +78,10 @@
     width: 100%;
     min-height: 100vh;
     margin: 0 auto;
+}
+
+.no-scroll {
+    overflow: hidden;
 }
 
 .secText {
@@ -95,12 +98,12 @@
     }
 
     p {
-        max-width: 700px;
+        max-width: 100%;
         text-align: center;
         line-height: 1.5em;
 
-        @media screen and (max-width: 1024px) {
-            max-width: 100%;
+        @include minWidth(desktop) {
+            max-width: toRem(700);
         }
     }
 }

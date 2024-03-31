@@ -1,4 +1,6 @@
 // FONTS
+
+// TITLES
 @font-face {
     font-family: 'Simplon';
     font-style: normal;
@@ -28,10 +30,51 @@
 }
 
 @font-face {
-    font-family: Simplon;
+    font-family: 'Simplon';
     font-style: normal;
     font-weight: 900;
     src: local('Simplon Headline'), url('/fonts/simplon/simplon-headline.ttf') format('truetype');
 }
 
+
+// TEXT
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Gilroy Light'), url('/fonts/gilroy/Gilroy-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy Regular'), url('/fonts/gilroy/Gilroy-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Gilroy Bold'), url('/fonts/gilroy/Gilroy-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Gilroy Black'), url('/fonts/gilroy/Gilroy-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Gilroy Headline'), url('/fonts/gilroy/Gilroy-Black.ttf') format('truetype');
+}
+
+
+
+// VARIABLES
 $font-primary: "Simplon";
+$font-secondary: "Gilroy";

@@ -17,26 +17,171 @@
 	"contact": {
 		"title": "Talk to me",
 		"methods": {
-			"email": "matheuscgrilo@mail.com",
-			"phone": "+55 21 98157-3775",
-			"linkedin": "linkedin.com/in/matheusgrilo",
-			"whatsapp": "wa.me/5521981573775"
+			"email": {
+				"title": "Email",
+				"link": "matheuscgrilo@gmail.com",
+				"url": "mailto:matheuscgrilo@gmail.com"
+			},
+			"phone": {
+				"title": "Phone number",
+				"link": "55 21 98157-3775",
+				"url": "tel:+55 21 98157-3775"
+			 },
+			"linkedin": {
+				"title": "LinkedIn", 
+				"link": "linkedin.com/in/matheusgrilo",
+				"url": "https://www.linkedin.com/in/matheusgrilo/"
+			 },
+			"whatsapp": {
+				"title": "WhatsApp",
+				"link": "wa.me/5521981573775",
+				"url": "https://wa.me/5521981573775"
+			 }
 		}
 	},
-	"skills": {
+	"services": {
 		"title": "What I'm great at",
 		"description": "My specialty is turning concepts and ideas into digital reality. With a meticulous eye for design, web development, and Android app creation, I dedicate my time to ensuring that every element of your project is handled with excellence and attention to detail.",
-		"button": "Skills",
-		"items": {
-			"web_designing": "Website Design",
-			"web_development": "Web Development",
-			"web_apps": "Web Apps",
-			"web_editing": "Website Editing"
+		"button-card": "Cards & tags",
+		"button-list": "Skill points",
+		"levels": {
+			"title": "Skill level:",
+			"basic": "Basic",
+			"mid": "Intermediate",
+			"high": "Advanced",
+			"expert": "Expert"
+		},
+		"types": {
+			"frontend": {
+				"title": "Front-End",
+				"badgets": [
+					{
+						"name": "React",
+						"level": "90%"
+					},
+					{
+						"name": "Vue ",
+						"level": "90%"
+					},
+					{
+						"name": "Angular",
+						"level": "65%"
+					},
+					{
+						"name": "TypeScript",
+						"level": "85%"
+					},
+					{
+						"name": "Redux | Vuex | Pinia",
+						"level": "75%"
+					},
+					{
+						"name": "NextJS | NuxtJS",
+						"level": "70%"
+					},
+					{
+						"name": "JavaScript | ES6",
+						"level": "95%"
+					},
+					{
+						"name": "SASS | LESS | Styled-Components ",
+						"level": "98%"
+					}
+				]
+			},
+			"backend": {
+				"title": "Back-End",
+				"badgets": [
+					{
+						"name": "NodeJS",
+						"level": "40%"
+					},
+					{
+						"name": "PHP",
+						"level": "30%"
+					},
+					{
+						"name": "Django",
+						"level": "30%"
+					},
+					{
+						"name": "RESTful APIs",
+						"level": "75%"
+					},
+					{
+						"name": "SQL",
+						"level": "60%"
+					},
+					{
+						"name": "GraphQL",
+						"level": "30%"
+					},
+					{
+						"name": "Rails",
+						"level": "25%"
+					}
+				]
+			},
+			"design": {
+				"title": "Design UX",
+				"badgets": [
+					{
+						"name": "Figma",
+						"level": "75%"
+					},
+					{
+						"name": "Sketch",
+						"level": "60%"
+					},
+					{
+						"name": "Photoshop",
+						"level": "80%"
+					},
+					{
+						"name": "Illustrator",
+						"level": "70%"
+					},
+					{
+						"name": "User Experience",
+						"level": "75%"
+					}
+				]
+			},
+			"devops": {
+				"title": "Productivity & DevOps",
+				"badgets": [
+					{
+						"name": "Git",
+						"level": "85%"
+					},
+					{
+						"name": "Jenkins",
+						"level": "65%"
+					},
+					{
+						"name": "Vercel",
+						"level": "30%"
+					},
+					{
+						"name": "Docker",
+						"level": "40%"
+					},
+					{
+						"name": "AWS",
+						"level": "50%"
+					},
+					{
+						"name": "JIRA & Confluence",
+						"level": "80%"
+					}
+				]
+			}
 		}
 	},
 	"portfolio": {
 		"title": "My best works",
-		"button": "Gallery",
+		"resume": "/assets/ResumeEN--Matheus.pdf",
+		"button": "My resume",
 		"description": "Working at the intersection of aesthetics and functionality to create powerful solutions is what motivates me the most. Explore my gallery to see examples of complex projects I've developed with a user-focused strategy, attractive design, and robust development."
 	},
 	"gallery": [

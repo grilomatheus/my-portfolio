@@ -4,17 +4,24 @@ import "./Hero.scss";
 const Hero = () => {
 	const { t } = useTranslation();
 
+	const scrollToContact = () => {
+		const contactSection = document.querySelector('#contact');
+		if (contactSection) {
+			contactSection.scrollIntoView({ behavior: 'smooth' });
+		}
+	};
+
 	return (
 		<section id="hero">
 			<div className="hero__container">
 				<div className="hero__content">
-					<h2 className='title-light'>{t('profile.name')}</h2>
+					<h2 className='title-primary'>{t('profile.name')}</h2>
 					<p>
 						{t('profile.description')}
 					</p>
-					<a href="#contact" className="btn-light">{t('contact.title')}</a>
+					<button onClick={scrollToContact} className="btn-primary">{t('contact.title')}</button>
 				</div>
-				<img src="img/avatar.png" className="avatar" alt="avatar" />
+				<img src="assets/avatar.png" className="avatar" alt="avatar" />
 			</div>
 		</section>
 	);
