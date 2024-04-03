@@ -17,7 +17,7 @@ const Contact = () => {
 		}));
 	};
 
-	const handleSubmit = (e) => {
+	const handleSubmit = async (e) => {
 		e.preventDefault();
 
 		const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -33,6 +33,22 @@ const Contact = () => {
 
 		setSubmitStatus({ status: 'success', message: t('contact.validation.formSubmitted') });
 		setFormData({ name: '', email: '', message: '' });
+
+		try {
+			const response = await fetch('https://grilo-mailer.vercel.app/send-email', {
+			  method: 'POST',
+			  headers: { 'Content-Type': 'application/json' },
+			  body: JSON.stringify(formData),
+			});
+		
+			if (response.ok) {
+			  setSubmitStatus({ status: 'success', message: 'Your message has been sent successfully!' });
+			} else {
+			  setSubmitStatus({ status: 'error', message: 'Failed to send your message. Please try again.' });
+			}
+		  } catch (error) {
+			setSubmitStatus({ status: 'error', message: error.toString() });
+		  }
 	};
 
 	useEffect(() => {
@@ -70,6 +86,11 @@ const Contact = () => {
 						<span className="highlight" /><span className="bar" />
 						<label>{t('contact_form.fields.message')}</label>
 					</div>
+					{submitStatus.message && (
+						<div className={`message ${submitStatus.status}`}>
+							{submitStatus.message}
+						</div>
+					)}
 					<div className="contact--submit">
 						<input type="submit" className="btn-secondary" value={t('contact_form.fields.button')} disabled={!isFormFilled} />
 					</div>
