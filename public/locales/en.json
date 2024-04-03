@@ -41,7 +41,7 @@
 	},
 	"services": {
 		"title": "What I'm great at",
-		"description": "My specialty is turning concepts and ideas into digital reality. With a meticulous eye for design, web development, and Android app creation, I dedicate my time to ensuring that every element of your project is handled with excellence and attention to detail.",
+		"description": "My specialty is turning concepts and ideas into digital reality. With a meticulous eye for design, web development, and app creation, I dedicate my time to ensuring that every element of your project is handled with excellence and attention to detail.",
 		"button-card": "Cards & tags",
 		"button-list": "Skill points",
 		"levels": {
@@ -179,7 +179,7 @@
 		}
 	},
 	"portfolio": {
-		"title": "My best works",
+		"title": "My works",
 		"resume": "/assets/ResumeEN--Matheus.pdf",
 		"button": "My resume",
 		"description": "Working at the intersection of aesthetics and functionality to create powerful solutions is what motivates me the most. Explore my gallery to see examples of complex projects I've developed with a user-focused strategy, attractive design, and robust development."

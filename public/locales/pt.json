@@ -39,8 +39,8 @@
 		}
 	},
 	"services": {
-		"title": "No que eu sou ótimo",
-		"description": "Minha especialidade é transformar conceitos e ideias em realidade digital. Com um olhar meticuloso para o design, desenvolvimento web e criação de aplicativos para Android, eu dedico meu tempo para garantir que cada elemento de seu projeto seja tratado com excelência e atenção aos detalhes.",
+		"title": "No que sou bom",
+		"description": "Minha especialidade é transformar conceitos e ideias em realidade digital. Com um olhar meticuloso para o design, desenvolvimento web e criação de aplicações, eu dedico meu tempo para garantir que cada elemento de seu projeto seja tratado com excelência e atenção aos detalhes.",
 		"button-card": "Cards & tags",
 		"button-list": "Pontos de habilidade",
 		"levels": {
@@ -178,7 +178,7 @@
 		}
 	},
 	"portfolio": {
-		"title": "Minhas melhores obras",
+		"title": "Meus trabalhos",
 		"button": "Meu currículo",
 		"resume": "/assets/ResumePT--Matheus.pdf",
 		"description": "Trabalhar na intersecção da estética e funcionalidade para criar soluções poderosas é o que mais me motiva. Explore minha galeria para ver exemplos de projetos complexos que desenvolvi com uma estratégia focada no usuário, design atrativo e um desenvolvimento robusto."

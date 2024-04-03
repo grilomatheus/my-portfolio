@@ -1,0 +1,31 @@
+@import '../../index.scss';
+
+
+#portfolio {
+	background: var(--background-primary);
+	text-align: center;
+	position: relative;
+	min-height: 100vh;
+	padding: toRem(60) toRem(20);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	@include minWidth(tablet) {
+		padding: toRem(100) toRem(50) toRem(50);
+	}
+
+	@include minWidth(desktop) {
+		padding: toRem(120) toRem(40);
+	}
+
+	.content {
+		margin-top: toRem(40);
+		.btn-primary {
+			margin-top: toRem(40);
+		}
+			img {
+				width: 100%;
+			}
+	}
+}
