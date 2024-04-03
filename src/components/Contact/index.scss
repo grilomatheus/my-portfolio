@@ -59,6 +59,15 @@
 			.contact--submit {
 				grid-area: submit;
 				text-align: center;
+				.contact__feedback {
+					font-weight: 400;
+					min-height: 24px;
+					.contact__submit-status {
+						&--info {color: blue;}
+						&--error {color: red;}
+						&--success {color: green;}
+					}
+				}
 			}
 
 			.group {

@@ -15,11 +15,11 @@ const Hero = () => {
 		<section id="hero">
 			<div className="hero__container">
 				<div className="hero__content">
-					<h2 className='title-primary'>{t('profile.name')}</h2>
+					<h2 className='title-primary'>{t('hero.name')}</h2>
 					<p>
-						{t('profile.description')}
+						{t('hero.description')}
 					</p>
-					<button onClick={scrollToContact} className="btn-primary">{t('contact.title')}</button>
+					<button onClick={scrollToContact} className="btn-primary">{t('hero.button')}</button>
 				</div>
 				<img src="assets/avatar.png" className="avatar" alt="avatar" />
 			</div>

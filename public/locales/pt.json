@@ -9,34 +9,10 @@
 		"english": "Inglês",
 		"portuguese": "Português"
 	},
-	"profile": {
+	"hero": {
 		"name": "Matheus Grilo",
+		"button": "Fale comigo",
 		"description": "Sou um profissional apaixonado por tecnologia e design, dedicado a criar soluções web e mobile que geram impacto real. Ao longo da minha carreira, sempre acreditei que a melhor forma de sucesso é através da constante aprendizagem, inovação e um foco incansável na experiência do usuário. Se você está interessado em trabalhar comigo, adoraria ouvir de você!"
-	},
-	"contact": {
-		"title": "Fale comigo",
-		"methods": {
-			"email": {
-				"title": "E-Mail",
-				"link": "matheuscgrilo@gmail.com",
-				"url": "mailto:matheuscgrilo@gmail.com"
-			},
-			"phone": {
-				"title": "Telefone",
-				"link": "55 21 98157-3775",
-				"url": "tel:+55 21 98157-3775"
-			},
-			"linkedin": {
-				"title": "LinkedIn",
-				"link": "linkedin.com/in/matheusgrilo",
-				"url": "https://www.linkedin.com/in/matheusgrilo/"
-			},
-			"whatsapp": {
-				"title": "WhatsApp",
-				"link": "wa.me/5521981573775",
-				"url": "https://wa.me/5521981573775"
-			}
-		}
 	},
 	"services": {
 		"title": "No que sou bom",
@@ -191,15 +167,46 @@
 		"sites web",
 		"sites web"
 	],
-	"contact_form": {
-		"get_in_touch": "Como entrar em contato",
-		"description": "Estou sempre aberto para novos projetos, ideias ou simplesmente para um bom bate-papo sobre tudo que envolve tecnologia e design. Seja por e-mail, telefone, Skype ou Whatsapp, estou disponível para discutir suas necessidades e ver como posso ajudá-lo a atingir seus objetivos. Se preferir, você pode preencher o formulário abaixo com seus detalhes e eu retornarei o contato o mais breve possível.",
+	"contact": {
+		"get_in_touch": "Fale Conosco",
+		"description": "Estou sempre aberto a discutir novos projetos, ideias criativas ou oportunidades de colaboração.",
 		"fields": {
 			"name": "Nome",
-			"email": "Email",
+			"email": "E-mail",
 			"message": "Mensagem",
-			"button": "Enviar"
+			"button": "Enviar Mensagem",
+			"sending": "Enviando...",
+			"sent_success": "Sua mensagem foi enviada com sucesso!",
+			"sent_error": "Ocorreu um erro ao enviar sua mensagem. Tente novamente."
+		},
+		"validation": {
+			"fillAllFields": "Por favor, preencha todos os campos.",
+			"unformattedEmail": "Por favor, insira um endereço de e-mail válido."
 		}
 	},
-	"footer": "© Grilo Tech Insights 2023"
+	"footer": {
+		"copyright": "© Grilo Tech Insights 2023",
+		"methods": {
+			"email": {
+				"title": "E-Mail",
+				"link": "matheuscgrilo@gmail.com",
+				"url": "mailto:matheuscgrilo@gmail.com"
+			},
+			"phone": {
+				"title": "Telefone",
+				"link": "55 21 98157-3775",
+				"url": "tel:+55 21 98157-3775"
+			},
+			"linkedin": {
+				"title": "LinkedIn",
+				"link": "linkedin.com/in/matheusgrilo",
+				"url": "https://www.linkedin.com/in/matheusgrilo/"
+			},
+			"whatsapp": {
+				"title": "WhatsApp",
+				"link": "wa.me/5521981573775",
+				"url": "https://wa.me/5521981573775"
+			}
+		}
+	}
 }
