@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import './index.scss';
+import './Contact.scss';
 
 const Contact = () => {
 	const { t } = useTranslation();

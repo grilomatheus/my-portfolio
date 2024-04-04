@@ -63,9 +63,9 @@
 					font-weight: 400;
 					min-height: 24px;
 					.contact__submit-status {
-						&--info {color: blue;}
-						&--error {color: red;}
-						&--success {color: green;}
+						&--info {color: var(--info-alert);}
+						&--error {color: var(--error-alert);}
+						&--success {color: var(--success-alert);}
 					}
 				}
 			}

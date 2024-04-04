@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import "./index.scss";
+import "./Hero.scss";
 
 const Hero = () => {
 	const { t } = useTranslation();

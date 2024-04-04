@@ -13,7 +13,6 @@
     flex-direction: column;
 
     @include minWidth(tablet) {
-        // padding: toRem(100) toRem(50) toRem(50);
         height: 100vh;
     }
 
@@ -59,7 +58,6 @@
                 cursor: pointer;
 
                 .service-header {
-
                     .service-icon,
                     .service-title {
                         opacity: 1;

@@ -67,10 +67,13 @@
     cursor: pointer;
 
     &:disabled {
-        color: $primary-light;
-        border-color: $primary-light;
         box-shadow: none;
         cursor: default;
+		opacity: 0.25;
+		&:hover {
+			color: var(--input-secondary);
+			border-color: var(--input-secondary);
+		}
     }
 }
 

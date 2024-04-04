@@ -1,9 +1,9 @@
 import { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { SunIcon, MoonIcon } from '../SvgIcons';
-import flagEn from '/flags/united-states.png';
+import { SunIcon, MoonIcon } from '../SvgIcons/SvgIcons';
+import flagEn from '/flags/usa.png';
 import flagPt from '/flags/brazil.png';
-import './index.scss';
+import './Navbar.scss';
 
 const Navbar = () => {
 	const { i18n, t } = useTranslation();
@@ -13,7 +13,7 @@ const Navbar = () => {
 	const [showDropdown, setShowDropdown] = useState(false);
 	const [currentLang, setCurrentLang] = useState(i18n.language);
 	const dropdownRef = useRef(null);
-    const lastScrollTop = useRef(0);
+	const lastScrollTop = useRef(0);
 
 	const sections = {
 		home: '#hero',
@@ -117,23 +117,26 @@ const Navbar = () => {
 					<li className="nav__item"><button onClick={() => handleMenuSelection(sections.services)}>{t('menu.services')}</button></li>
 					<li className="nav__item"><button onClick={() => handleMenuSelection(sections.portfolio)}>{t('menu.portfolio')}</button></li>
 					<li className="nav__item"><button onClick={() => handleMenuSelection(sections.contact)}>{t('menu.contact')}</button></li>
-
-					<button onClick={toggleDarkMode} className="dark-mode-toggle">
-						{darkMode ? <SunIcon /> : <MoonIcon />}
-					</button>
-					<div className="language-select" onClick={toggleDropdown} style={{ cursor: 'pointer' }}>
-						<img src={languageOptions.find(option => option.code === currentLang)?.flag} alt="Select Language" className="flag-icon" />
-						{showDropdown && (
-							<div className="dropdown" ref={dropdownRef}>
-								{languageOptions.map(option => (
-									<div key={option.code} className="dropdown__item" onClick={() => changeLanguage(option.code)}>
-										<img src={option.flag} alt={option.label} className="flag-icon" />
-										<span>{option.label}</span>
-									</div>
-								))}
-							</div>
-						)}
-					</div>
+					<li className="nav__item">
+						<button onClick={toggleDarkMode} className="dark-mode-toggle">
+							{darkMode ? <SunIcon /> : <MoonIcon />}
+						</button>
+					</li>
+					<li className="nav__item">
+						<div className="language-select" onClick={toggleDropdown} style={{ cursor: 'pointer' }}>
+							<img src={languageOptions.find(option => option.code === currentLang)?.flag} alt="Select Language" className="flag-icon" />
+							{showDropdown && (
+								<div className="dropdown" ref={dropdownRef}>
+									{languageOptions.map(option => (
+										<div key={option.code} className="dropdown__item" onClick={() => changeLanguage(option.code)}>
+											<img src={option.flag} alt={option.label} className="flag-icon" />
+											<span>{option.label}</span>
+										</div>
+									))}
+								</div>
+							)}
+						</div>
+					</li>
 				</ul>
 			</div>
 		</header>

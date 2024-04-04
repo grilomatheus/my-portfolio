@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
-import { EmailIcon, PhoneIcon, LinkedinIcon, WhatsappIcon } from '../SvgIcons';
+import { EmailIcon, PhoneIcon, LinkedinIcon, WhatsappIcon } from '../SvgIcons/SvgIcons';
 import Logo from '/assets/logo.png';
-import "./index.scss";
+import "./Footer.scss";
 
 export default function Footer() {
 	const { t } = useTranslation();

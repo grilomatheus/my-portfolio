@@ -1,8 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { BackIcon, FrontIcon, DesignIcon, DevopsIcon, ArrowDownIcon } from '../SvgIcons';
-import "./index.scss";
+import { BackIcon, FrontIcon, DesignIcon, DevopsIcon, ArrowDownIcon } from '../SvgIcons/SvgIcons';
+import "./Services.scss";
 
 const Services = () => {
 	const { t } = useTranslation();
