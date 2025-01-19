@@ -1,0 +1,75 @@
+// src/styles/utils/_variables.scss
+
+// FONT SIZE
+$primary-title-size: 72;
+$title-desktop: 64;
+$title-mobile: 48;
+$text-size: 16;
+
+
+// PALETTE
+$primary-color: #4831d4;
+$secondary-color: #ccf381;
+// VARIANT
+$primary-light: #cbc9e2;
+$primary-main: #b0a2ff;
+$primary-dark: #3d155f;
+$primary-darker: #1d0340;
+// CONTENT
+$grey-100: #ffffff;
+$grey-200: #f9f9f9;
+$grey-800: #3E3E40;
+$grey-900: #252526;
+
+// LIGHT THEME (default)
+:root {
+	--navbar: rgba(72, 49, 212, 0.5);
+	--background-primary: #{$primary-color};
+	--background-secondary: #{$grey-200};
+	--title-primary: #{$primary-color};
+	--title-secondary: #{$secondary-color};
+	--text-primary: #{$grey-100};
+	--text-secondary: #{$primary-dark};
+	--input-primary: #{$grey-100};
+	--input-secondary: #{$primary-color};
+	--input-text-primary: #{$primary-color};
+	--input-text-secondary: #{$grey-100};
+	--card-primary: #{$grey-100};
+	--stack-img: #{$primary-color};
+	--success-alert: #2e7d32;
+	--info-alert: #0288d1;
+	--warning-alert: #ed6c02;
+	--error-alert: #d32f2f;
+}
+
+// DARK THEME
+.dark-theme {
+	--navbar: rgb(29, 3, 64, 0.5);
+	--background-primary: #{$primary-darker};
+	--background-secondary: #{$grey-900};
+	--title-primary: #{$primary-main};
+	--title-secondary: #{$secondary-color};
+	--text-primary: #{$grey-200};
+	--text-secondary: #{$grey-100};
+	--input-primary: #{$grey-100};
+	--input-secondary: #{$primary-main};
+	--input-text-primary: #{$primary-dark};
+	--input-text-secondary: #{$grey-800};
+	--card-primary: #{$grey-800};
+	--stack-img: #{$primary-main};
+	--success-alert: #66bb6a;
+	--info-alert: #29b6f6;
+	--warning-alert: #ffa726;
+	--error-alert: #f44336;
+}
+
+
+// MEDIA QUERIES
+$breakpoints: (
+	"mobile": 360px,
+	"tablet": 768px,
+	"desktop": 1024px,
+	"desktop-large": 1280px,
+);
+
+$grid: 1440

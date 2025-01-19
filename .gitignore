@@ -27,3 +27,4 @@ package-lock.json
 *.sw?
 .env
 .env.production
+**/*.Identifier

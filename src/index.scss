@@ -4,9 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'styles/base/_fonts';
-@import 'styles/utils/_variables';
-@import 'styles/utils/_mixins';
-@import 'styles/utils/_functions';
-@import 'styles/base/_reset';
-@import 'styles/base/_global';
+@import 'styles/base/fonts';
+@import 'styles/utils/variables';
+@import 'styles/utils/mixins';
+@import 'styles/utils/functions';
+@import 'styles/base/reset';
+@import 'styles/base/global';
