@@ -1,212 +1,212 @@
 {
-	"menu": {
-		"home": "Início",
-		"services": "Serviços",
-		"portfolio": "Portifólio",
-		"contact": "Contato"
-	},
-	"language": {
-		"english": "Inglês",
-		"portuguese": "Português"
-	},
-	"hero": {
-		"name": "Matheus Grilo",
-		"button": "Fale comigo",
-		"description": "Sou um profissional apaixonado por tecnologia e design, dedicado a criar soluções web e mobile que geram impacto real. Ao longo da minha carreira, sempre acreditei que a melhor forma de sucesso é através da constante aprendizagem, inovação e um foco incansável na experiência do usuário. Se você está interessado em trabalhar comigo, adoraria ouvir de você!"
-	},
-	"services": {
-		"title": "No que sou bom",
-		"description": "Minha especialidade é transformar conceitos e ideias em realidade digital. Com um olhar meticuloso para o design, desenvolvimento web e criação de aplicações, eu dedico meu tempo para garantir que cada elemento de seu projeto seja tratado com excelência e atenção aos detalhes.",
-		"button-card": "Cards & tags",
-		"button-list": "Pontos de habilidade",
-		"levels": {
-			"title": "Nível das habilidades:",
-			"basic": "Básico",
-			"mid": "Intermediário",
-			"high": "Avançado",
-			"expert": "Especialista"
-		},
-		"types": {
-			"frontend": {
-				"title": "Front-End",
-				"badgets": [
-					{
-						"name": "React",
-						"level": "90%"
-					},
-					{
-						"name": "Vue ",
-						"level": "90%"
-					},
-					{
-						"name": "Angular",
-						"level": "65%"
-					},
-					{
-						"name": "TypeScript",
-						"level": "85%"
-					},
-					{
-						"name": "Redux | Vuex | Pinia",
-						"level": "75%"
-					},
-					{
-						"name": "NextJS | NuxtJS",
-						"level": "70%"
-					},
-					{
-						"name": "JavaScript | ES6",
-						"level": "95%"
-					},
-					{
-						"name": "SASS | LESS | Styled-Components ",
-						"level": "98%"
-					}
-				]
-			},
-			"backend": {
-				"title": "Back-End",
-				"badgets": [
-					{
-						"name": "NodeJS",
-						"level": "40%"
-					},
-					{
-						"name": "PHP",
-						"level": "30%"
-					},
-					{
-						"name": "Django",
-						"level": "30%"
-					},
-					{
-						"name": "RESTful APIs",
-						"level": "75%"
-					},
-					{
-						"name": "SQL",
-						"level": "60%"
-					},
-					{
-						"name": "GraphQL",
-						"level": "30%"
-					},
-					{
-						"name": "Rails",
-						"level": "25%"
-					}
-				]
-			},
-			"design": {
-				"title": "Design UX",
-				"badgets": [
-					{
-						"name": "Figma",
-						"level": "75%"
-					},
-					{
-						"name": "Sketch",
-						"level": "60%"
-					},
-					{
-						"name": "Photoshop",
-						"level": "80%"
-					},
-					{
-						"name": "Illustrator",
-						"level": "70%"
-					},
-					{
-						"name": "User Experience",
-						"level": "75%"
-					}
-				]
-			},
-			"devops": {
-				"title": "Produtividade & DevOps",
-				"badgets": [
-					{
-						"name": "Git",
-						"level": "85%"
-					},
-					{
-						"name": "Jenkins",
-						"level": "65%"
-					},
-					{
-						"name": "Vercel",
-						"level": "30%"
-					},
-					{
-						"name": "Docker",
-						"level": "40%"
-					},
-					{
-						"name": "AWS",
-						"level": "50%"
-					},
-					{
-						"name": "JIRA & Confluence",
-						"level": "80%"
-					}
-				]
-			}
-		}
-	},
-	"portfolio": {
-		"title": "Meus trabalhos",
-		"button": "Meu currículo",
-		"resume": "/assets/ResumePT--Matheus.pdf",
-		"description": "Trabalhar na intersecção da estética e funcionalidade para criar soluções poderosas é o que mais me motiva. Explore minha galeria para ver exemplos de projetos complexos que desenvolvi com uma estratégia focada no usuário, design atrativo e um desenvolvimento robusto."
-	},
-	"gallery": [
-		"sites web",
-		"sites web",
-		"sites web",
-		"sites web",
-		"sites web",
-		"sites web"
-	],
-	"contact": {
-		"get_in_touch": "Fale Conosco",
-		"description": "Estou sempre aberto a discutir novos projetos, ideias criativas ou oportunidades de colaboração.",
-		"fields": {
-			"name": "Nome",
-			"email": "E-mail",
-			"message": "Mensagem",
-			"button": "Enviar Mensagem",
-			"sending": "Enviando...",
-			"sent_success": "Sua mensagem foi enviada com sucesso!",
-			"sent_error": "Ocorreu um erro ao enviar sua mensagem. Tente novamente."
-		},
-		"validation": {
-			"fillAllFields": "Por favor, preencha todos os campos.",
-			"unformattedEmail": "Por favor, insira um endereço de e-mail válido."
-		}
-	},
-	"footer": {
-		"copyright": "© Grilo Tech Insights 2023",
-		"methods": {
-			"email": {
-				"title": "E-Mail",
-				"link": "matheuscgrilo@gmail.com",
-				"url": "mailto:matheuscgrilo@gmail.com"
-			},
-			"phone": {
-				"title": "Telefone",
-				"link": "55 21 98157-3775",
-				"url": "tel:+55 21 98157-3775"
-			},
-			"linkedin": {
-				"title": "LinkedIn",
-				"link": "linkedin.com/in/matheusgrilo",
-				"url": "https://www.linkedin.com/in/matheusgrilo/"
-			},
-			"whatsapp": {
-				"title": "WhatsApp",
-				"link": "wa.me/5521981573775",
-				"url": "https://wa.me/5521981573775"
-			}
-		}
-	}
+  "menu": {
+    "home": "Início",
+    "services": "Serviços",
+    "portfolio": "Portifólio",
+    "contact": "Contato"
+  },
+  "language": {
+    "english": "Inglês",
+    "portuguese": "Português"
+  },
+  "hero": {
+    "name": "Matheus Grilo",
+    "button": "Fale comigo",
+    "description": "Sou um profissional apaixonado por tecnologia e design, dedicado a criar soluções web e mobile que geram impacto real. Ao longo da minha carreira, sempre acreditei que a melhor forma de sucesso é através da constante aprendizagem, inovação e um foco incansável na experiência do usuário. Se você está interessado em trabalhar comigo, adoraria ouvir de você!"
+  },
+  "services": {
+    "title": "No que sou bom",
+    "description": "Minha especialidade é transformar conceitos e ideias em realidade digital. Com um olhar meticuloso para o design, desenvolvimento web e criação de aplicações, eu dedico meu tempo para garantir que cada elemento de seu projeto seja tratado com excelência e atenção aos detalhes.",
+    "button-card": "Cards & tags",
+    "button-list": "Pontos de habilidade",
+    "levels": {
+      "title": "Nível das habilidades:",
+      "basic": "Básico",
+      "mid": "Intermediário",
+      "high": "Avançado",
+      "expert": "Especialista"
+    },
+    "types": {
+      "frontend": {
+        "title": "Front-End",
+        "badgets": [
+          {
+            "name": "React",
+            "level": "90%"
+          },
+          {
+            "name": "Vue ",
+            "level": "90%"
+          },
+          {
+            "name": "Angular",
+            "level": "65%"
+          },
+          {
+            "name": "TypeScript",
+            "level": "85%"
+          },
+          {
+            "name": "Redux | Vuex | Pinia",
+            "level": "75%"
+          },
+          {
+            "name": "NextJS | NuxtJS",
+            "level": "70%"
+          },
+          {
+            "name": "JavaScript | ES6",
+            "level": "95%"
+          },
+          {
+            "name": "SASS | LESS | Styled-Components ",
+            "level": "98%"
+          }
+        ]
+      },
+      "backend": {
+        "title": "Back-End",
+        "badgets": [
+          {
+            "name": "NodeJS",
+            "level": "40%"
+          },
+          {
+            "name": "PHP",
+            "level": "30%"
+          },
+          {
+            "name": "Django",
+            "level": "30%"
+          },
+          {
+            "name": "RESTful APIs",
+            "level": "75%"
+          },
+          {
+            "name": "SQL",
+            "level": "60%"
+          },
+          {
+            "name": "GraphQL",
+            "level": "30%"
+          },
+          {
+            "name": "Rails",
+            "level": "25%"
+          }
+        ]
+      },
+      "design": {
+        "title": "Design UX",
+        "badgets": [
+          {
+            "name": "Figma",
+            "level": "75%"
+          },
+          {
+            "name": "Sketch",
+            "level": "60%"
+          },
+          {
+            "name": "Photoshop",
+            "level": "80%"
+          },
+          {
+            "name": "Illustrator",
+            "level": "70%"
+          },
+          {
+            "name": "User Experience",
+            "level": "75%"
+          }
+        ]
+      },
+      "devops": {
+        "title": "Produtividade & DevOps",
+        "badgets": [
+          {
+            "name": "Git",
+            "level": "85%"
+          },
+          {
+            "name": "Jenkins",
+            "level": "65%"
+          },
+          {
+            "name": "Vercel",
+            "level": "30%"
+          },
+          {
+            "name": "Docker",
+            "level": "40%"
+          },
+          {
+            "name": "AWS",
+            "level": "50%"
+          },
+          {
+            "name": "JIRA & Confluence",
+            "level": "80%"
+          }
+        ]
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Meus trabalhos",
+    "button": "Meu currículo",
+    "resume": "/assets/ResumeEN--Matheus.pdf",
+    "description": "Trabalhar na intersecção da estética e funcionalidade para criar soluções poderosas é o que mais me motiva. Explore minha galeria para ver exemplos de projetos complexos que desenvolvi com uma estratégia focada no usuário, design atrativo e um desenvolvimento robusto."
+  },
+  "gallery": [
+    "sites web",
+    "sites web",
+    "sites web",
+    "sites web",
+    "sites web",
+    "sites web"
+  ],
+  "contact": {
+    "get_in_touch": "Fale Conosco",
+    "description": "Estou sempre aberto a discutir novos projetos, ideias criativas ou oportunidades de colaboração.",
+    "fields": {
+      "name": "Nome",
+      "email": "E-mail",
+      "message": "Mensagem",
+      "button": "Enviar Mensagem",
+      "sending": "Enviando...",
+      "sent_success": "Sua mensagem foi enviada com sucesso!",
+      "sent_error": "Ocorreu um erro ao enviar sua mensagem. Tente novamente."
+    },
+    "validation": {
+      "fillAllFields": "Por favor, preencha todos os campos.",
+      "unformattedEmail": "Por favor, insira um endereço de e-mail válido."
+    }
+  },
+  "footer": {
+    "copyright": "© Grilo Tech Insights 2023",
+    "methods": {
+      "email": {
+        "title": "E-Mail",
+        "link": "matheuscgrilo@gmail.com",
+        "url": "mailto:matheuscgrilo@gmail.com"
+      },
+      "phone": {
+        "title": "Telefone",
+        "link": "55 21 98157-3775",
+        "url": "tel:+55 21 98157-3775"
+      },
+      "linkedin": {
+        "title": "LinkedIn",
+        "link": "linkedin.com/in/matheusgrilo",
+        "url": "https://www.linkedin.com/in/matheusgrilo/"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "link": "wa.me/5521981573775",
+        "url": "https://wa.me/5521981573775"
+      }
+    }
+  }
 }
